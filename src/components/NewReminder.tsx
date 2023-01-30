@@ -17,7 +17,7 @@ function NewReminder({ addReminder }: NewReminderProps): JSX.Element {
   return (
     <div className="my-4">
       <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Enter Title</label>
+        <label htmlFor="title">Enter a reminder</label>
         <input
           id="title"
           type="text"
